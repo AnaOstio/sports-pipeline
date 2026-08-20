@@ -1,0 +1,122 @@
+{
+  "UD Almería": {
+    "stadium": "Estadio de los Juegos Mediterráneos",
+    "city": "Almería",
+    "lat": 36.8418,
+    "lon": -2.4305
+  },
+  "Sevilla FC": {
+    "stadium": "Estadio Ramón Sánchez-Pizjuán",
+    "city": "Sevilla",
+    "lat": 37.3838,
+    "lon": -5.9706
+  },
+  "Real Sociedad de Fútbol": {
+    "stadium": "Reale Arena",
+    "city": "San Sebastián",
+    "lat": 43.3015,
+    "lon": -1.9738
+  },
+  "UD Las Palmas": {
+    "stadium": "Estadio de Gran Canaria",
+    "city": "Las Palmas de Gran Canaria",
+    "lat": 28.1005,
+    "lon": -15.4503
+  },
+  "Athletic Club": {
+    "stadium": "Estadio de San Mamés",
+    "city": "Bilbao",
+    "lat": 43.2641,
+    "lon": -2.9494
+  },
+  "RC Celta de Vigo": {
+    "stadium": "Estadio de Balaídos",
+    "city": "Vigo",
+    "lat": 42.2117,
+    "lon": -8.7395
+  },
+  "Villarreal CF": {
+    "stadium": "Estadio de la Cerámica",
+    "city": "Villarreal",
+    "lat": 39.9442,
+    "lon": -0.1036
+  },
+  "Getafe CF": {
+    "stadium": "Coliseum Alfonso Pérez",
+    "city": "Getafe",
+    "lat": 40.3263,
+    "lon": -3.7137
+  },
+  "Cádiz CF": {
+    "stadium": "Estadio Nuevo Mirandilla",
+    "city": "Cádiz",
+    "lat": 36.5014,
+    "lon": -6.2723
+  },
+  "Club Atlético de Madrid": {
+    "stadium": "Cívitas Metropolitano",
+    "city": "Madrid",
+    "lat": 40.4361,
+    "lon": -3.5995
+  },
+  "RCD Mallorca": {
+    "stadium": "Estadio de Son Moix",
+    "city": "Palma de Mallorca",
+    "lat": 39.5899,
+    "lon": 2.6308
+  },
+  "Valencia CF": {
+    "stadium": "Estadio de Mestalla",
+    "city": "Valencia",
+    "lat": 39.4750,
+    "lon": -0.3582
+  },
+  "CA Osasuna": {
+    "stadium": "Estadio El Sadar",
+    "city": "Pamplona",
+    "lat": 42.7964,
+    "lon": -1.6371
+  },
+  "Girona FC": {
+    "stadium": "Estadio Municipal de Montilivi",
+    "city": "Girona",
+    "lat": 41.9628,
+    "lon": 2.8192
+  },
+  "FC Barcelona": {
+    "stadium": "Estadi Olímpic Lluís Companys",
+    "city": "Barcelona",
+    "lat": 41.3645,
+    "lon": 2.1573
+  },
+  "Real Betis Balompié": {
+    "stadium": "Estadio Benito Villamarín",
+    "city": "Sevilla",
+    "lat": 37.3561,
+    "lon": -5.9811
+  },
+  "Deportivo Alavés": {
+    "stadium": "Estadio de Mendizorroza",
+    "city": "Vitoria-Gasteiz",
+    "lat": 42.8459,
+    "lon": -2.6862
+  },
+  "Granada CF": {
+    "stadium": "Estadio Nuevo Los Cármenes",
+    "city": "Granada",
+    "lat": 37.1523,
+    "lon": -3.5988
+  },
+  "Rayo Vallecano de Madrid": {
+    "stadium": "Estadio de Vallecas",
+    "city": "Madrid",
+    "lat": 40.3919,
+    "lon": -3.6572
+  },
+  "Real Madrid CF": {
+    "stadium": "Estadio Santiago Bernabéu",
+    "city": "Madrid",
+    "lat": 40.4531,
+    "lon": -3.6883
+  }
+}
