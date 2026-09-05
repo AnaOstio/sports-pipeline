@@ -1,0 +1,23 @@
+artifact_path: file:///C:/Users/anaos/Desktop/proyectos/sports-pipeline/mlruns/1/models/m-658f51ef05b64ee7a17190c2aa57df38/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.12.4
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.0
+    skops_trusted_types: null
+mlflow_version: 3.16.0
+model_id: m-658f51ef05b64ee7a17190c2aa57df38
+model_size_bytes: 3464568
+model_uuid: m-658f51ef05b64ee7a17190c2aa57df38
+prompts: null
+run_id: fb2ef177696d485d9c73abab1175c0bb
+utc_time_created: '2026-09-05 17:10:09.314512'
