@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: sports_dbt
+    database: sports-pipeline-506109
+    schema: sports_dbt
+    tables:
+      - name: raw_matches
+        description: "Tabla raw con partidos de La Liga + clima histórico"

@@ -1,0 +1,98 @@
+version: 2
+
+models:
+  - name: stg_matches
+    description: "Partidos de La Liga 2023/24 con datos de clima histórico del estadio local"
+    columns:
+      - name: match_id
+        description: "ID único del partido"
+        data_tests:
+          - unique
+          - not_null
+
+      - name: matchday
+        description: "Jornada de liga"
+        data_tests:
+          - not_null
+
+      - name: home_team
+        description: "Equipo local"
+        data_tests:
+          - not_null
+
+      - name: away_team
+        description: "Equipo visitante"
+        data_tests:
+          - not_null
+
+      - name: result
+        description: "Resultado del partido: H (local), A (visitante), D (empate)"
+        data_tests:
+          - not_null
+          - accepted_values:
+              values: ['H', 'A', 'D']
+
+      - name: home_score
+        description: "Goles del equipo local"
+        data_tests:
+          - not_null
+
+      - name: away_score
+        description: "Goles del equipo visitante"
+        data_tests:
+          - not_null
+
+      - name: temp_avg
+        description: "Temperatura media del día del partido (°C)"
+        data_tests:
+          - not_null
+
+      - name: precipitation
+        description: "Precipitación total del día del partido (mm)"
+        data_tests:
+          - not_null
+
+      - name: rain_category
+        description: "Categoría de lluvia: Seco, Lluvia ligera, Lluvia moderada, Lluvia fuerte"
+        data_tests:
+          - not_null
+          - accepted_values:
+              values: ['Seco', 'Lluvia ligera', 'Lluvia moderada', 'Lluvia fuerte']
+
+      - name: temp_category
+        description: "Categoría de temperatura: Frío, Fresco, Templado, Caluroso"
+        data_tests:
+          - not_null
+          - accepted_values:
+              values: ['Frío', 'Fresco', 'Templado', 'Caluroso']
+
+  - name: int_team_stats
+    description: "Estadísticas agregadas por equipo y condición climática"
+    columns:
+      - name: team
+        description: "Nombre del equipo"
+        data_tests:
+          - not_null
+
+      - name: total_matches
+        description: "Total de partidos jugados en esta condición climática"
+        data_tests:
+          - not_null
+
+      - name: win_pct
+        description: "Porcentaje de victorias en esta condición climática"
+        data_tests:
+          - not_null
+
+  - name: mart_team_performance
+    description: "Tabla final de rendimiento por equipo y clima, lista para dashboard y ML"
+    columns:
+      - name: team
+        description: "Nombre del equipo"
+        data_tests:
+          - not_null
+
+      - name: win_pct_vs_average
+        description: "Diferencia de win% en esta condición vs media general del equipo"
+        data_tests:
+          - not_null
